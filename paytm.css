@@ -1,0 +1,346 @@
+body{
+    margin: 0;
+    font-family: arial,Roboto;
+}
+.nav-bar{
+    height: 85px;
+    width: 100%;
+    display: flex;
+    position: fixed;
+    background-color: white;
+    
+    
+}
+.left{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo-pic{
+    width: 180px;
+    height: 70px;
+    margin-left: 60px;
+   
+    margin-top: 16px;
+    
+}
+.middle{
+    width: 60%;
+    height: 100%;
+   
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.sub-link{
+    cursor: pointer;
+    font-size: 18 px;
+    font-weight: bold;
+}
+.right{
+    height: 100%;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.account{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2px 2px 2px 20px;
+    background-color: #00baf2;
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+}
+.accnt-profile-pic{
+    margin-left: 10px;
+    cursor: pointer;
+    border-radius: 24px;
+   
+
+}
+.account:hover{
+background-color: darkblue;
+}
+.kyc{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    display: flex;
+    background-color: #dcdbdb;
+    font-size: 14px;
+    padding-top: 85px;
+    margin-top: 0%;
+}
+.wallet-kyc{
+    margin-right: 6px;
+}
+.section-2{
+    height: 600px;
+    width: 100%;
+    display: flex;
+    
+}
+.left-section{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo{
+    height: 80px;
+    width: 80px;
+}
+.heading{
+    font-size: 54px;
+    font-weight: 700;
+    line-height: 65px;
+}
+.para{
+    font-size: 22px;
+    font-weight: 600;
+    width: 400px;
+    line-height: 30px;
+}
+.bttn{
+    background-color: black;
+    color: white;
+    padding: 15px 24px;
+    border-radius: 40px;
+    border: 0;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+    font-weight: 300;
+}
+.bttn:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+.apple{
+    margin-left: 10px;
+}
+.playstore{
+    margin-left: 12px;
+}
+.right-section{
+   width: 50%;
+   height: 100%;
+   display: flex;
+   justify-content: flex-end;
+   padding-top: 80px;
+  
+}
+.right-image{
+   height: 480px;
+   width: 480px; 
+}
+.recharge-section{
+    width: 100%;
+    background-color: #00baf2;
+    color: white;
+  
+    
+}
+.inner-section{
+    width: 70%;
+    margin: auto;
+    
+}
+.recharge-heading{
+    font-size: 36px;
+    padding-top: 40px;
+}
+.recharge-child{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding-bottom: 40px;
+}
+
+.images{
+    width: 64px;
+    height: 64px;
+    padding-top: 25px;
+}
+.inner-lines{
+    line-height: 10px;
+    font-weight: bold;
+}
+.book-buy{
+    width: 100%;
+    background-color:  #0f4aba;
+    color: white;
+}
+.inner-part{
+    width: 70%;
+    margin: auto;
+    padding-bottom: 40px;
+    
+}
+.book-heading{
+    padding-top: 40px;
+    font-size: 36px;
+    margin-top: 0px;
+}
+.book-inner-part{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+   
+}
+.inner-text{
+    line-height: 3px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.greater{
+    font-size: 12px;
+    font-weight: 300;
+}
+.section-5{
+    height: 600px;
+    width: 100%;
+    display: flex;
+}
+.first-section{
+    height: 100%;
+    width: 50%;
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.inner-first-section{
+   padding: 15%; 
+}
+.head-section-5{
+    font-size: 48px;
+    font-weight: 700;
+}
+.logo-2{
+   height: 86px;
+   width: 86px;
+   position: relative;
+   
+   
+}
+.side-text{
+    font-size: 16px;
+    font-weight: 700;
+   position: absolute;
+   padding-top: 25px;
+    
+    
+}
+.para-section-5{
+    font-size: 17px;
+    font-weight: 400;
+}
+.second-section{
+    height: 100%;
+    width: 50%;
+    
+}
+.inner-second-section{
+    padding-top: 100px;
+}
+.section-6{
+    height: 650px;
+    width: 100%;
+    display: flex;
+    border-bottom: 2px solid rgb(193, 189, 189);
+
+}
+.section-one{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.inner-section-one{
+    padding: 15%;
+}
+.section-two{
+ height: 100%;
+ width: 50%;
+}
+.inner-section-two{
+    padding-top: 15%;
+    padding-bottom: 15%;    
+    padding-right: 20%;
+}
+.img-section-2{
+    height: 450px;
+    width: 80%;
+}
+.footer{
+    height:200px ;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    border-bottom: 2px solid rgb(193, 189, 189) ;   
+}
+.right-footer{
+    width: 50%;
+    display: flex;
+}
+.right-inner-footer{
+    padding-left: 13%;
+    padding-top: 5%;
+}
+.footer-img{
+    margin-left: 12px;
+    cursor: pointer;
+    background-color: black;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.footer-img:hover{
+    opacity: .75;
+}
+
+
+.row-1,.row-2{
+    display: inline-block;
+}
+.left-footer{
+    padding-left: 22%;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.left-inner-footer{
+    display: flex;
+    display: inline-block;
+}
+.img-footer{
+    padding-right: 14px;
+}
+
+.last{
+    margin-bottom: 100px;
+    margin-top: 70px;
+}
+.last-lines{
+    margin-left: 88px;
+    line-height: 50px;
+}
+
+
+    
